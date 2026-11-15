@@ -59,19 +59,19 @@ function HomePage({ projects, onNavigate }) {
               </span>
             ))}
           </h1>
-          <p className="hero-subtitle">Développeur back-end · Spécialisé en API</p>
+          <p className="hero-subtitle">Développeur Web · Spécialisé en API</p>
         </div>
       </section>
 
       <section id="about" className="section container">
         <div className="about-content">
           <p className="eyebrow">À propos</p>
-          <h2>Développeur web back-end</h2>
+          <h2>Développeur Web </h2>
           <p className="mt-3" style={{ textAlign: 'justify' }}>
             Jeune étudiant en 3ème année en BUT MMI basé à Meaux, je suis actuellement à la recherche d'un stage d'une durée de 8 semaines minimum à partir de novembre 2026. Rigoureux et motivé, je m'investis pleinement dans les missions qui me sont confiées et je fais preuve d'une grande capacité d'adaptation. Curieux et désireux d'apprendre, j'apprécie découvrir de nouveaux environnements de travail et développer continuellement mes compétences, tant sur le plan technique que professionnel.
           </p>
           <p className="text-muted mt-2" style={{ textAlign: 'justify' }}>
-            Disponible pour des missions front React/Angular mais aussi des missions back-end (API, Base de données, Design).
+            Disponible pour des missions front React/Angular mais aussi des missions back-end (API, Base de données).
           </p>
         </div>
       </section>
