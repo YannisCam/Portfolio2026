@@ -16,17 +16,6 @@ function Header({ onNavigate }) {
   const [lastY, setLastY] = useState(0)
   const [menuOpen, setMenuOpen] = useState(false)
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentY = window.scrollY
-      setHidden(currentY > lastY && currentY > 80)
-      setLastY(currentY)
-    }
-
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [lastY])
-
   const handleNavClick = (target) => {
     onNavigate(target)
     setMenuOpen(false)
